@@ -238,7 +238,7 @@ TapA=0;
                         ArC=1-0.00625*TapC;
                         Av=diag([ArA; ArB; ArC]);
                         Branch.Wye3PhiAvs=[Branch.Wye3PhiAvs;Av];
-                    elseif length(Branch.Phases{ii}==2)
+                    elseif length(Branch.Phases{ii})==2
                            Branch.RegulatorTypes=[Branch.RegulatorTypes;'Wye2Phi'];
                         Branch.Regs2PhiBranchNumbers=[Branch.Regs2PhiBranchNumbers;ii];
                         Branch.Wye2PhiBranchNumbers=[Branch.Wye2PhiBranchNumbers;ii];
