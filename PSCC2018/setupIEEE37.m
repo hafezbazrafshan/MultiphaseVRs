@@ -225,9 +225,7 @@ for ii=1:NBranches
                         Branch.RegulatorTypes=[Branch.RegulatorTypes;'Wye'];
                         Branch.Regs3PhiBranchNumbers=[Branch.Regs3PhiBranchNumbers;ii];
                         Branch.Wye3PhiBranchNumbers=[Branch.Wye3PhiBranchNumbers;ii];
-%                         TapA=10;
-%                         TapB=8;
-%                         TapC=11;
+
 TapA=0;
                         TapB=0;
                         TapC=0;
